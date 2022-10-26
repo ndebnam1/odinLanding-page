@@ -1,0 +1,33 @@
+.section-1-container2,
+.section-1-container {
+	display: flex;
+	align-content: space-between;
+}
+.section1Subcontainer,
+.section1Subcontainer2 {
+	display: flex;
+	align-content: space-around;
+	margin: 13px;
+	width: fit-content;
+	flex-direction: row;
+	height: fit-content;
+}
+.container1 {
+	display: flex;
+	align-content: space-between;
+	flex-direction: column;
+}
+
+.section1Subcontainer2 {
+	flex-direction: column;
+	width: 100%;
+}
+
+.section1Subcontainer {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.section-1-container {
+	justify-content: center;
+}
