@@ -1,17 +1,32 @@
-.container-1 {
+body {
+	font-family: "Roboto", sans-serif;
+	height: 100vh;
+	width: 100vw;
+	margin: 0;
+}
+.header {
+	background-color: #1f2937;
 	display: flex;
-	flex-direction: column;
+	justify-content: space-around;
 }
-.container-1 div {
-	border: 1px #ccc solid;
-	padding: 10px;
+.header-links {
+	display: flex;
+	flex-direction: row;
+	width: 50%;
+	justify-content: space-between;
 }
-
-.box-1 {
+.header-logo h1 {
+	font-size: 18px;
+	color: #e5e7eb;
+	width: 100%;
 }
-
-.box-2 {
+.header-link h1 {
+	font-size: 18px;
+	color: #e5e7eb;
 }
-
-.box-3 {
+.header-link {
+}
+.section-1 {
+	background-color: #1f2937;
+	margin: 0;
 }
