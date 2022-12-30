@@ -155,7 +155,7 @@ animation: pulse .5s infinite;
 
 .my-button,
 .section-1-button,
-.section-4-button,.openRpsModal {
+.section-4-button,.openRpsModal,.modalBtn {
 	background-color: #fc888c;
 	font-size: 15px;
 	cursor: pointer;
@@ -166,7 +166,13 @@ animation: pulse .5s infinite;
 	letter-spacing: 3px;
 	width: fit-content;
 }
-
+.modalBtn{
+	background-color: #3c3838;
+	color: #e1696d;
+}
+.modalBtn:hover{
+	background-color: #6d6565;
+}
 .openRpsModal{
 	align-self: center;
 }
