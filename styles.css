@@ -278,7 +278,7 @@ animation: pulse .5s infinite;
 	pointer-events: auto;
 }
 
-.popup.active .content ,.rpsMoal.active .content{
+.popup.active .content ,.rpsModal.active .content{
 	transition: all 300ms ease-in-out;
 	transform: translate(-50%, -50%) scale(1);
 }
