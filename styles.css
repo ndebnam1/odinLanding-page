@@ -10,29 +10,29 @@
 	letter-spacing: 2px;
 }
 
+
 .header {
-	background-color: #c9cccf;
+	background-color: #101011;
 	display: flex;
 	justify-content: space-around;
 	align-content: center;
-	padding-top: 25px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
+
 .header-links {
 	display: flex;
 	flex-direction: row;
 	width: 50%;
 	justify-content: space-between;
+	align-items: center;
+	
 }
-.header-logo {
+.header-name {
 	font-size: 30px;
-	color: black;
-	width: 100%;
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-}
-.header-link h1 {
-	font-size: 18px;
 	color: #e5e7eb;
 }
 
@@ -109,7 +109,7 @@
 .my-button,
 .section-1-button,
 .section-4-button,.openRpsModal,.modalBtn {
-	background-color: #fc888c;
+	background-color: #e4e4e4;
 	font-size: 15px;
 	cursor: pointer;
 	border-radius: 7px;
@@ -157,8 +157,9 @@
 .section-1 {
 	background-color: #c9cccf;
 	display: flex;
-	padding: 60px;
-	justify-content: space-between;
+	padding-top: 60px;
+	justify-content: space-around;
+
 }
 .section-1-header-1 {
 	font-size: 48px;
@@ -180,15 +181,13 @@
 	flex-direction: column;
 }
 
-.section-1-img-div {
-	display: flex;
-	flex-direction: column;
-}
+
 .section-1-img {
 	width: auto;
-	height: 220px;
-	border-radius: 5px;
-	border: 8px solid black;
+	height: 400px;
+	
+}
+.section-1-img-div{
 }
 
 
@@ -269,10 +268,11 @@ animation: pulse .5s infinite;
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 2px;
+	color: #e4e4e4;
 }
 
 .section-2 {
-	background-color: #8da0ab;
+	background-color: #000000;
 	padding-bottom: 50px;
 	border-style: solid;
 	border-width: 5px;
