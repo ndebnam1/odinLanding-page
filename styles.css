@@ -241,6 +241,7 @@ animation: pulse .5s infinite;
 
 .section-2-boxes {
 	display: flex;
+	
 	justify-content: space-around;
 	margin-top: 30px;
 }
