@@ -1,135 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Niles Debnam Landing Page</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="functions.js" defer></script>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styles/styles.css">
+        <!-- <link rel="stylesheet"  href="./styles/styles.scss"> -->
+        <link href="https://fonts.cdnfonts.com/css/kollektif" rel="stylesheet">
+        <link href="https://fonts.cdnfonts.com/css/sequel" rel="stylesheet">
+        <link href="https://fonts.cdnfonts.com/css/orkney" rel="stylesheet">
 
-<body>
+        <title>Niles Debnam</title>
+    </head>
 
-
-
-      
-    <div  class="rpsModal" id="rpsModal">
-        <div class="overlay" onclick="toggleRpsModal()"></div>
-            <div class="content">
-                <h2>Rock Paper Scissors</h2>
-                <p>This project is an assignment from "The Odin Project" which is a free online Full Stack web developing course. The purpose of this specific project is to display that I have a basic understanding of HTML, Javascript, and CSS. The HTML was styled using basic CSS styling properties and the pages layout is made from flexboxes. The background Javascript is written in a dedicated file which is linked in the head of the Landing Pages index.html file.</p>
-                <a href="https://github.com/ndebnam1/rock-paper-scissors" target=" "><button class="modalBtn">View Code</button></a>
-            <div class="close-button" onclick="toggleRpsModal()">&times;</div>
-        </div>
-    </div>
-
-
-    <div class="popup" id="popup-1">
-        <div class="overlay" onclick="togglePopup()"></div>
-        <div class="content">
-            <div class="close-button" onclick="togglePopup()">&times;</div>
-                <h1>Contact Info</h1>
-                <ul class="header-button-1">
-                    <li>Ndebnam1@uncc.edu</li>
-                    <li>704-575-5676</li>
-                    <li>(Personal Email) Nilesdebnam@gmail.com</li>
-                </ul>
-        </div>
-    </div>
-
-
-
-
-
-
-
-
+    <body>
         <div class="header">
-            <div class="header-buttons">
-                <div class="header-link"> <a href="Niles Debnam Resume.docx.pdf" target=" "><button  title="Open Resume in New Tab"class="header-button">My
-                Github</button></a>
-                </div>      
-
-                <div class="header-link"><button class="header-button" onclick="togglePopup()"> My
-                Github</button>
-                </div>
-
-                
-                <div class="header-link"><a href="https://github.com/ndebnam1" target=" "> <button class="header-button">My
-                            Github</button></a>
-                </div>
-                <div class="header-link"><a href="https://www.linkedin.com/in/nilesdebnam" target=" "> <button
-                            class="header-button">My
-                            My
-                            Github</button></a></div>
+            <div class="symbol-container">
+                <h1 class="cs-symbol"> &lt/&gt </h1>
+            </div>
+            <div class="header-btns">
+                <button class="header-btn">Resume</button>
+                <button class="header-btn">Contact Me</button>
+                <button class="header-btn">My GitHub</button>
+                <button class="header-btn">My LinkedIn</button>
+            </div>
+            <div class="symbol-container">
+                <h1 class="cs-symbol"> &lt/&gt </h1>
             </div>
         </div>
+
         <div class="section-1">
-            <h1 class="section-1-label">Software Developer</h1>
-            <!-- <div class="section-1-img-div"> -->
-                <!-- <img src="./images/edited-Niles-Head-Shot.png" alt="Place Holder" class="section-1-img"> -->
-            <!-- </div> -->
-            <h1 class="section-1-label">Student</h1>
-
-        </div>
-        <div class="section-2">
-            <span class="section-2-header-1">Portfolio</span>
-            <div class="section-2-boxes">
-                <div class="section-2-box">
-                    <div class="box-1-container">
-                        <a href="https://ndebnam1.github.io/rock-paper-scissors/" target="_blank"><img
-                                src="./images/RPS-SS.png" title="Click me to open this project in new tab" id="rpsImg"
-                                alt="ScreenShot of RPS project" class="rps-img" data-text="hoping this works"></a>
-                    </div>
-                    <h5 class="section-2-box-info">The Odin Project(RPS)</h5>
-
-                    <button class="openRpsModal" onclick="toggleRpsModal()" title="Click Me to Read">Description</button>
-                    
-
-
-                </div>
-                <div class="section-2-box">
-                    <div class="box-1-container">
-                        <img src="" alt="Place Holder" class="section-2-box-img">
-                    </div>
-                    <h5 class="section-2-box-info">Future Project 2</h5>
-                </div>
-                <div class="section-2-box">
-                    <div class="box-1-container">
-                        <img src="" alt="Place Holder" class="section-2-box-img">
-                    </div>
-                    <h5 class="section-2-box-info">Future Project 3</h5>
-                </div>
-                <div class="section-2-box">
-                    <div class="box-1-container">
-                        <img src="" alt="Place Holder" class="section-2-box-img">
-                    </div>
-                    <h5 class="section-2-box-info">Future Project 4</h5>
-                </div>
-                <div class="section-2-box">
-                    <div class="box-1-container">
-                        <img src="" alt="Place Holder" class="section-2-box-img">
-                    </div>
-                    <h5 class="section-2-box-info">Future Project 5</h5>
-                </div>
+            <div class="name-container">
+                <h1 class="name">Niles Debnam</h1>
+                <h2 class="title">Current College Student </h2>
+                <h2 class="title">Aspiring Full Stack Developer</h2>
             </div>
         </div>
-        <div class="section-3">
-            <h3 class="section-3-header-3">"Your brand is what people say about you when you are not in the room"</h3>
-            <h4 class="section-3-header-4">- Jeff Bezos</h4>
-        </div>
-        <div class="section-4">
-            <div class="section-4-box">
-                <div class="section-4-headers">
-                    <h1 class="section-4-header"></h1>
-                    <h2 class="section-4-header"></h2>
-
-                </div>
-
-                <div class="footer">Note: This website was created by me from the ground up and should be considered a
-                    work-in progress until my portfolio is complete.</div>
-</body>
+    </body>
 
 </html>
